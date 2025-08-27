@@ -60,25 +60,25 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 ### 2. Video Dubbing (Other Videos to Tom & Jerry)
 
 <table class="center">
-  <td><video src="demos/other_videos/snoopy_tom_and_jerry_new.mp4"></video></td>
-  <td><video src="demos/other_videos/3_output_merge.mp4"></video></td>
-  <td><video src="demos/other_videos/4_output_merge.mp4"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/34e19f06-3b30-4438-a817-9e131af410f3"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/4a6de0c6-ef50-4cc3-b31b-d873af6fdf79"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/76f7f5de-42c6-475a-853c-5e2ba11ab7b2"></video></td>
   <tr>
   <td style="text-align:center;" width="320">"Snoopy."</td>
   <td style="text-align:center;" width="320">"Nezha."</td>
   <td style="text-align:center;" width="320">"Nezha."</td>
   <tr>
-  <td><video src="demos/other_videos/demo1_output.mp4"></video></td>
-  <td><video src="demos/other_videos/mifei_audio2-1.mp4"></video></td>
-  <td><video src="demos/other_videos/tanglaoya2_audio.mp4"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/74415b54-0432-4b0f-9afb-9f2ecf0a80f2"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/5141f15b-f2a9-413b-bac1-3c89d61c75dc"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/d0cfa875-4637-461c-a8e8-416407a7640c"></video></td>
   <tr>
   <td style="text-align:center;" width="320">"We Bare Bears."</td>
   <td style="text-align:center;" width="320">"Miffy."</td>
   <td style="text-align:center;" width="320">"Donald Duck."</td>
   <tr>
-  <td><video src="demos/other_videos/sora1_audio.mp4"></video></td>
-  <td><video src="demos/other_videos/sora2_audio.mp4"></video></td>
-  <td><video src="demos/other_videos/cat_dog_2.mp4"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/5c801b5e-ce74-42a2-b8cf-3325ab0d7c4a"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/5c9ed7e9-527e-4163-a19b-ffa56ab034dc"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/5d603a4a-bf45-4ce9-81a3-62950ea89e99"></video></td>
   <tr>
   <td style="text-align:center;" width="320">"Sora Videos from Official Website."</td>
   <td style="text-align:center;" width="320">"Sora Videos from Official Website."</td>
@@ -88,18 +88,20 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 
 
 
+
 ### 3. Text-to-Audio (Long Narrative)
 
 <table class="center">
-  <td><audio src="demos/text_to_audio/201_concated_clips_5.wav"></audio></td>
-  <td><audio src="demos/text_to_audio/217_concated_clips_5.wav"></audio></td>
-  <td><audio src="demos/text_to_audio/229_concated_clips_5.wav"></audio></td>
+  <td><audio src="https://github.com/user-attachments/files/22002278/201_concated_clips_5.wav"></audio></td>
+  <td><audio src="https://github.com/user-attachments/files/22002279/217_concated_clips_5.wav"></audio></td>
+  <td><audio src="https://github.com/user-attachments/files/22002280/229_concated_clips_5.wav"></audio></td>
   <tr>
   <td style="text-align:center;" width="320">"Tom Cruise's face reflects focus, his eyes filled with purpose and drive."</td>
   <td style="text-align:center;" width="320">"A child excitedly swings on a rusty swing set, laughter filling the air."</td>
   <td style="text-align:center;" width="320">"A young woman with glasses is jogging in the park wearing a pink headband."</td>
   <tr>
 </table >
+
 
 
 
