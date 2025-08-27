@@ -43,9 +43,9 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 ### 1. Video Dubbing (Tom & Jerry)
 
 <table class="center">
-  <td><video src="https://drive.google.com/file/d/1ucvGGkdNtT3PBSomguZiWOyqUFskoyPy/view?usp=sharing"></video></td>
-  <td><video src="https://drive.google.com/file/d/1G4sRnAxzL7kDTT4xpV958r_N-4XiOA7-/view?usp=sharing"></video></td>
-  <td><video src="https://drive.google.com/file/d/1EWJWOx3UU4pkctLxgwlreFMk-5n3uGmW/view?usp=sharing"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/f06b5999-6649-44d3-af38-63fdcecd833c"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/17727c2a-bfea-4252-9aa8-48fc9ac33500"></video></td>
+  <td><video src="https://github.com/user-attachments/assets/09589d82-62c9-47a6-838a-5a62319f35e2"></video></td>
   <tr>
   <td style="text-align:center;" width="320">"Tom Cruise's face reflects focus, his eyes filled with purpose and drive."</td>
   <td style="text-align:center;" width="320">"A child excitedly swings on a rusty swing set, laughter filling the air."</td>
