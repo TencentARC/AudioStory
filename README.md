@@ -9,24 +9,24 @@
 [Ying Shan<sup>2</sup>](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en)**
 <br>
 <sup>1</sup>Institute of Automation, CAS
-<sup>2</sup>ARC Lab, Tencent PCG, 
+<sup>2</sup>ARC Lab, Tencent PCG
 <br>
 
 
 
 ## 📖 Release
 
-[8/17] 🔥We release our code of evaluation and checkpoint!
+[8/18] 🔥We release our code of evaluation!
+
+[8/18] 🔥We release our demo videos!
 
 
-
-## 🔖 Contents
-
-[toc]
 
 ## 🔎 Introduction
 
 ![audiostory](audiostory.png)
+
+✨ **TL; DR: We propose a model for long-form narrative audio generation built upon a unified understanding–generation framework, capable of handling video dubbing, audio continuation, and long-form narrative audio synthesis.**
 
 Recent advances in text-to-audio (TTA) generation excel at synthesizing short audio clips but struggle with long-form narrative audio, which requires temporal coherence and compositional reasoning. To address this gap, we propose AudioStory, a unified framework that integrates large language models (LLMs) with TTA systems to generate structured, long-form audio narratives. AudioStory possesses strong instruction-following reasoning generation capabilities. It employs LLMs to decompose complex narrative queries into temporally ordered sub-tasks with contextual cues, enabling coherent scene transitions and emotional tone consistency. AudioStory has two appealing features: 
 
@@ -47,12 +47,11 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
   <td><video src="https://github.com/user-attachments/assets/17727c2a-bfea-4252-9aa8-48fc9ac33500"></video></td>
   <td><video src="https://github.com/user-attachments/assets/09589d82-62c9-47a6-838a-5a62319f35e2"></video></td>
   <tr>
-  <td style="text-align:center;" width="320">"Tom Cruise's face reflects focus, his eyes filled with purpose and drive."</td>
-  <td style="text-align:center;" width="320">"A child excitedly swings on a rusty swing set, laughter filling the air."</td>
-  <td style="text-align:center;" width="320">"A young woman with glasses is jogging in the park wearing a pink headband."</td>
+  <td style="text-align:center;" width="320">"Jerry escapes from Tom at a dining table using quick, clever maneuvers and using a spoon and a pot lid to knock Tom unconscious, amidst dramatic orchestral music."</td>
+  <td style="text-align:center;" width="320">"Tom the cat follows a trail of white powder, sneaks up on a yellow cloth he believes is hiding something, and then proceeds to violently smash a book down upon it."</td>
+  <td style="text-align:center;" width="320">"At the beach, Jerry pranks Tom by swapping his sugar with sand, and when Tom tries to retaliate by spitting a mouthful of water at him, he accidentally soaks a nearby female cat instead."</td>
   <tr>
 </table >
-
 
 
 
@@ -82,28 +81,24 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
   <tr>
   <td style="text-align:center;" width="320">"Sora Videos from Official Website."</td>
   <td style="text-align:center;" width="320">"Sora Videos from Official Website."</td>
-  <td style="text-align:center;" width="320">"pets."</td>
+  <td style="text-align:center;" width="320">"Pets with Tom & Jerry bgm."</td>
   <tr>
 </table >
-
 
 
 
 ### 3. Text-to-Audio (Long Narrative)
 
 <table class="center">
-  <td><audio src="https://github.com/user-attachments/files/22002278/201_concated_clips_5.wav"></audio></td>
-  <td><audio src="https://github.com/user-attachments/files/22002279/217_concated_clips_5.wav"></audio></td>
-  <td><audio src="https://github.com/user-attachments/files/22002280/229_concated_clips_5.wav"></audio></td>
+  <td><audio src="[201_concated_clips_5.wav](https://github.com/user-attachments/files/22013041/201_concated_clips_5.wav)"></audio></td>
+  <td><audio src="[217_concated_clips_5.wav](https://github.com/user-attachments/files/22013042/217_concated_clips_5.wav)"></audio></td>
+  <td><audio src="[229_concated_clips_5.wav](https://github.com/user-attachments/files/22013043/229_concated_clips_5.wav)"></audio></td>
   <tr>
   <td style="text-align:center;" width="320">"Tom Cruise's face reflects focus, his eyes filled with purpose and drive."</td>
   <td style="text-align:center;" width="320">"A child excitedly swings on a rusty swing set, laughter filling the air."</td>
   <td style="text-align:center;" width="320">"A young woman with glasses is jogging in the park wearing a pink headband."</td>
   <tr>
 </table >
-
-
-
 
 
 
@@ -115,23 +110,67 @@ To achieve effective instruction-following audio generation, the ability to unde
 
 
 
+## 🔩 Installation
+
+### Dependencies
+
+* Python >= 3.10 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
+* [PyTorch >=2.1.0](https://pytorch.org/)
+* NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+
+### Installation
+
+```
+git clone https://github.com/TencentARC/AudioStory.git
+cd AudioStory
+conda create -n audiostory python=3.10 -y
+conda activate audiostory
+bash install_audiostory.sh
+```
+
+
+
 ## 📊 Evaluation
 
+### inference
 
+```
+python 
+```
 
 
 
 ## 🔋 Acknowledgement
 
-
+When building the codebase of continuous denosiers, we refer to [SEED-X](https://github.com/AILab-CVC/SEED-X) and [TangoFlux](https://github.com/declare-lab/TangoFlux). Thanks for their wonderful projects.
 
 
 
 ## 📆 TO DO
 
+- [ ] Release our gradio demo for video dubbing.
+- [ ] Release checkpoints of AudioStory.
+- [ ] Release training codes of all three stages.
 
 
 
+## 📜 License
 
-## 📂 Related Projects
+This repository is under the [Apache 2 License](https://github.com/mashijie1028/Gen4Rep/blob/main/LICENSE).
+
+
+
+## 📚 BibTeX
+
+```
+To be updated.
+```
+
+
+
+## 📧 Contact
+
+If you have further questions, feel free to contact me: mashijie9817@gmail.com
+
+Discussions and potential collaborations are also welcome.
 
