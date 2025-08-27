@@ -90,9 +90,9 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 ### 3. Text-to-Audio (Long Narrative)
 
 <table class="center">
-  <td><audio src="[201_concated_clips_5.wav](https://github.com/user-attachments/files/22013041/201_concated_clips_5.wav)"></audio></td>
-  <td><audio src="[217_concated_clips_5.wav](https://github.com/user-attachments/files/22013042/217_concated_clips_5.wav)"></audio></td>
-  <td><audio src="[229_concated_clips_5.wav](https://github.com/user-attachments/files/22013043/229_concated_clips_5.wav)"></audio></td>
+  <td><audio src="demos/text_to_audio/201_concated_clips_5.wav)"></audio></td>
+  <td><audio src="demos/text_to_audio/217_concated_clips_5.wav)"></audio></td>
+  <td><audio src="demos/text_to_audio/229_concated_clips_5.wav)"></audio></td>
   <tr>
   <td style="text-align:center;" width="320">"Tom Cruise's face reflects focus, his eyes filled with purpose and drive."</td>
   <td style="text-align:center;" width="320">"A child excitedly swings on a rusty swing set, laughter filling the air."</td>
