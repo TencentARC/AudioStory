@@ -16,9 +16,9 @@
 
 ## 📖 Release
 
-[8/18] 🔥🔥 We release the inference code!
+[8/28] 🔥🔥 We release the inference code!
 
-[8/18] 🔥🔥 We release our demo videos!
+[8/28] 🔥🔥 We release our demo videos!
 
 
 
