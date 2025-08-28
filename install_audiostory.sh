@@ -2,7 +2,6 @@
 
 pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
 pip install torchdata==0.7.0
-pip install /group/40034/yuyingge/envs/transformers-4.40.0.dev0-py3-none-any.whl
 pip install safetensors==0.4.5 
 pip install tokenizers==0.19
 pip install click==8.1.7
