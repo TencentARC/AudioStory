@@ -61,8 +61,7 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
   <td><video src="https://github.com/user-attachments/assets/d3e58dd4-31ae-4e32-aef1-03f1e649cb0c"></video></td>
   <td><video src="https://github.com/user-attachments/assets/4f68199f-e48a-4be7-b6dc-1acb8d377a6e"></video></td>
   <td><video src="https://github.com/user-attachments/assets/062236c3-1d26-4622-b843-cc0cd0c58053"></video></td>
-<tr>
-
+	<tr>
   <td><video src="https://github.com/user-attachments/assets/8931f428-dd4d-430f-9927-068f2912dd36"></video></td>
   <td><video src="https://github.com/user-attachments/assets/ab7e46d5-f42c-472e-b66e-df786b658210"></video></td>      
   <td><video src="https://github.com/user-attachments/assets/9a0998ad-b5a4-42ac-bdaf-ceaf796fc586"></video></td>
@@ -74,17 +73,15 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 ### 3. Text-to-Long Audio (Natural sound)
 
 <table class="center">
-
-  <td style="text-align:center;" width="480">Instruction: "Develop a comprehensive audio that fully represents jake shimabukuro performs a complex ukulele piece in a studio, receives applause, and discusses his career in an interview.
-"</td>
-  <td><video src="https://github.com/user-attachments/assets/8426c014-0a53-493a-b6f3-33e883749ccc"></video></td>
- <tr>
-  <td style="text-align:center;" width="480">Instruction: "Develop a comprehensive audio that fully represents a fire truck leaves the station with sirens blaring, signaling an emergency response, and drives away."</td>
-  <td><video src="https://github.com/user-attachments/assets/996e1e98-a300-42d1-a5b6-83957356d515"></video></td>
- <tr>
-     <td style="text-align:center;" width="480">Instruction: "Understand the input audio, infer the subsequent events, and generate the continued audio of the coach giving basketball lessons to the players."</td>    
-    <td><video src="https://github.com/user-attachments/assets/efbf7538-783f-4d1b-bc4b-9051bfb8fc7a"></video></td>
-  <tr>
+  <td style="text-align:center;" width="480">Instruction: "Develop a comprehensive audio that fully represents jake shimabukuro performs a complex ukulele piece in a studio, receives applause, and discusses his career in an interview. The total duration is 49.9 seconds."</td>
+  <td><video src="https://github.com/user-attachments/assets/461e8a34-4217-454e-87b3-e4285f36ec43"></video></td>
+	<tr>
+  <td style="text-align:center;" width="480">Instruction: "Develop a comprehensive audio that fully represents a fire truck leaves the station with sirens blaring, signaling an emergency response, and drives away. The total duration is 35.1 seconds."</td>
+  <td><video src="https://github.com/user-attachments/assets/aac0243f-5d12-480e-9850-a7f6720e4f9c"></video></td>
+	<tr>
+     <td style="text-align:center;" width="480">Instruction: "Understand the input audio, infer the subsequent events, and generate the continued audio of the coach giving basketball lessons to the players. The total duration is 36.6 seconds."</td>    
+    <td><video src="https://github.com/user-attachments/assets/c4ed306a-651e-43d6-aeea-ee159542418a"></video></td>
+	<tr>
 </table >
 
 
