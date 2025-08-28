@@ -89,7 +89,7 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 
 ### 3. Text-to-Audio (Long Narrative)
 
-to be uoloaded.
+to be uploaded.
 
 
 
@@ -126,7 +126,10 @@ bash install_audiostory.sh
 ### inference
 
 ```
-python 
+python evaluate/inference.py --model_path /path/to/ckpt \
+														 --guidance 4.0 \
+														 --save_folder_name audiostory \
+														 --total_duration 50 \
 ```
 
 
