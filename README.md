@@ -41,6 +41,7 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 ## ⭐ Demos
 
 ### 1. Video Dubbing (Tom & Jerry style)
+> Dubbing is achieved using AudioStory (trained on Tom & Jerry) with visual captions extracted from videos.
 
 <table class="center">
   <td><video src="https://github.com/user-attachments/assets/f06b5999-6649-44d3-af38-63fdcecd833c"></video></td>
@@ -50,7 +51,7 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 </table >
 
 
-### 2. Video Dubbing (Other domain videos to Tom & Jerry style audios)
+### 2. Cross-domain Video Dubbing (Tom & Jerry style)
 
 <table class="center">
     <td><video src="https://github.com/user-attachments/assets/e62d0c09-cdf0-4e51-b550-0a2c23f8d68d"></video></td>
