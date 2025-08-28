@@ -90,9 +90,9 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 ### 3. Text-to-Audio (Long Narrative)
 
 <table class="center">
-  <td><audio src="https://github.com/user-attachments/assets/8426c014-0a53-493a-b6f3-33e883749ccc)"></audio></td>
-  <td><audio src="https://github.com/user-attachments/assets/996e1e98-a300-42d1-a5b6-83957356d515)"></audio></td>
-  <td><audio src="https://github.com/user-attachments/assets/efbf7538-783f-4d1b-bc4b-9051bfb8fc7a)"></audio></td>
+  <td><audio src="https://github.com/user-attachments/assets/8426c014-0a53-493a-b6f3-33e883749ccc)"></video></td>
+  <td><audio src="https://github.com/user-attachments/assets/996e1e98-a300-42d1-a5b6-83957356d515)"></video></td>
+  <td><audio src="https://github.com/user-attachments/assets/efbf7538-783f-4d1b-bc4b-9051bfb8fc7a)"></video></td>
   <tr>
   <td style="text-align:center;" width="320">"Develop a comprehensive audio that fully represents jake shimabukuro performs a complex ukulele piece in a studio, receives applause, and discusses his career in an interview.
 "</td>
