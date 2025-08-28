@@ -16,9 +16,9 @@
 
 ## 📖 Release
 
-[8/18] 🔥We release our code of evaluation!
+[8/18] 🔥🔥 We release the inference code!
 
-[8/18] 🔥We release our demo videos!
+[8/18] 🔥🔥 We release our demo videos!
 
 
 
@@ -56,7 +56,7 @@ Extensive experiments show the superiority of AudioStory on both single-audio ge
 
 
 
-### 2. Video Dubbing (Other Videos to Tom & Jerry)
+### 2. Video Dubbing (Other domain videos to Tom & Jerry style audios)
 
 <table class="center">
   <td><video src="https://github.com/user-attachments/assets/34e19f06-3b30-4438-a817-9e131af410f3"></video></td>
@@ -126,10 +126,7 @@ bash install_audiostory.sh
 ### inference
 
 ```
-python evaluate/inference.py --model_path /path/to/ckpt \
-														 --guidance 4.0 \
-														 --save_folder_name audiostory \
-														 --total_duration 50 \
+python evaluate/inference.py --model_path /path/to/ckpt --guidance 4.0 --save_folder_name audiostory --total_duration 50
 ```
 
 
@@ -142,7 +139,7 @@ When building the codebase of continuous denosiers, we refer to [SEED-X](https:/
 
 ## 📆 TO DO
 
-- [ ] Release our gradio demo for video dubbing.
+- [ ] Release our gradio demo.
 - [ ] Release checkpoints of AudioStory.
 - [ ] Release training codes of all three stages.
 
@@ -157,7 +154,15 @@ This repository is under the [Apache 2 License](https://github.com/mashijie1028/
 ## 📚 BibTeX
 
 ```
-To be updated.
+@misc{guo2025audiostory,
+      title={AudioStory: Generating Long-Form Narrative Audio with Large Language Models}, 
+      author={Yuxin Guo and Teng Wang and Yuying Ge and Shijie Ma and Yixiao Ge and Wei Zou and Ying Shan},
+      year={2025},
+      eprint={2508.20088},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.20088}, 
+}
 ```
 
 
