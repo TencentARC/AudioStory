@@ -12,21 +12,28 @@
 <sup>2</sup>ARC Lab, Tencent PCG
 <br>
 
+✨ TL; DR: We propose a model for long-form narrative audio generation built upon a unified understanding–generation framework, capable of handling video dubbing, audio continuation, and long-form narrative audio synthesis.
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=mySEYHryYwY" target="_blank">
+    <img src="https://img.youtube.com/vi/mySEYHryYwY/maxresdefault.jpg" alt="AudioStory Demo Video" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    <br>
+    <strong>🎥 Watch Full Demo on YouTube</strong>
+  </a>
+</div>
 
 
 ## 📖 Release
-
-[2025/8/28] 🔥🔥 We release the inference code!
-
-[2025/8/28] 🔥🔥 We release our demo videos!
+[2025/09/02] 🔥🔥 Text-to-long audio checkpoint released!
+<br>
+[2025/08/28] 🔥🔥 We release the inference code!
+<br>
+[2025/08/28] 🔥🔥 We release our demo videos!
 
 
 
 ## 🔎 Introduction
 
 ![audiostory](audiostory.png)
-
-✨ **TL; DR: We propose a model for long-form narrative audio generation built upon a unified understanding–generation framework, capable of handling video dubbing, audio continuation, and long-form narrative audio synthesis.**
 
 Recent advances in text-to-audio (TTA) generation excel at synthesizing short audio clips but struggle with long-form narrative audio, which requires temporal coherence and compositional reasoning. To address this gap, we propose AudioStory, a unified framework that integrates large language models (LLMs) with TTA systems to generate structured, long-form audio narratives. AudioStory possesses strong instruction-following reasoning generation capabilities. It employs LLMs to decompose complex narrative queries into temporally ordered sub-tasks with contextual cues, enabling coherent scene transitions and emotional tone consistency. AudioStory has two appealing features: 
 
@@ -117,10 +124,16 @@ bash install_audiostory.sh
 
 ## 📊 Evaluation
 
-### inference
+Download model checkpoint from [Huggingface Models](https://huggingface.co/TencentARC/AudioStory-3B).  
 
-```
-python evaluate/inference.py --model_path /path/to/ckpt --guidance 4.0 --save_folder_name audiostory --total_duration 50
+### Inference
+
+```bash
+python evaluate/inference.py \
+    --model_path ckpt/audiostory-3B \
+    --guidance 4.0 \
+    --save_folder_name audiostory \
+    --total_duration 50
 ```
 
 
@@ -134,7 +147,8 @@ When building the codebase of continuous denosiers, we refer to [SEED-X](https:/
 ## 📆 TO DO
 
 - [ ] Release our gradio demo.
-- [ ] Release checkpoints of AudioStory.
+- [x] 💾 Release AudioStory model checkpoints
+- [ ] Release AudioStory-10k dataset.
 - [ ] Release training codes of all three stages.
 
 
