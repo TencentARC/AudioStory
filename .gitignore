@@ -1,5 +1,6 @@
 ckpt
 ckpt/*
+ckpt_upload/*
 output/*
 __pycache__
 .vscode/
