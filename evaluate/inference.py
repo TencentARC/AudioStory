@@ -28,9 +28,8 @@ import torchaudio
 from omegaconf import OmegaConf
 
 # Project imports
-sys.path.append("/group/40034/gloriayxguo/AudioStory_open")
-from src.models.detokenizer.tangoflux_t5_tokens import (  # noqa: E402
-    TangoFlux_T5 as TangoFluxDetokenizerT5,
+from src.models.detokenizer.modeling_flux import (  # noqa: E402
+    Flux_T5 as FluxDetokenizerT5,
 )
 
 # Models / utils
@@ -267,31 +266,31 @@ def parse_args() -> argparse.Namespace:
         "--model_path",
         type=str,
         default=(
-            "audioseed_ckpt/seed_omni_t5_multi_audio_duration/audiostory_qwen_3b_t5_multi_audio_unav_scale10_1e4_loss0105_bz8_genpretrain_withinst_t5_aud_attn_cotrain_with_mhattn_weight_detokenizer_full_open_1opt_coscale_8token_duration_begin0_new/checkpoint-12000"
+            "ckpt/audiostory_3b"
         ),
     )
     parser.add_argument(
         "--llm_cfg_path",
         type=str,
-        default="configs/ablation_studies/t2a_whisper/llm_audioseed_qwen25_3b_lora.yaml",
+        default="configs/audiostory_llm_qwen25_3b_lora.yaml",
     )
     parser.add_argument(
         "--tangoflux_model",
         type=str,
-        default="a_TangoFlux_trained_ckpt_40075/new_detokenizer/tangoflux_detokenizer_30s_700k_1e5/step_165000",
+        default="ckpt/Flux_detokenizer",
     )
 
     # Generation
     parser.add_argument("--audio_type", default="demo")
-    parser.add_argument("--guidance", type=float, default=4.5)
+    parser.add_argument("--guidance", type=float, default=4.0)
     parser.add_argument("--max_new_tokens", type=float, default=1600)
     parser.add_argument("--target_sr", type=int, default=32000, help="Output sample rate")
     parser.add_argument("--crossfade_sec", type=float, default=3, help="Crossfade seconds")
 
     # IO / prompt
     parser.add_argument("--save_folder_name", type=str, default="audiostory_multi_audio_duration")
-    parser.add_argument("--generated_caption", type=str, default="A group of people were singing happily together. Suddenly, a dog started barking. The children were frightened and cried. But everyone burst into laughter.")
-    parser.add_argument("--total_duration", type=float, default=22.8)
+    parser.add_argument("--generated_caption", type=str, default="")
+    parser.add_argument("--total_duration", type=float, default=50)
 
     return parser.parse_args()
 
@@ -348,7 +347,7 @@ def main() -> None:
     with open(f"{args.tangoflux_model}/config.json", "r") as f:
         flux_config = json.load(f)
 
-    flux_model = TangoFluxDetokenizerT5(config=flux_config)
+    flux_model = FluxDetokenizerT5(config=flux_config)
     flux_model.eval().to(DEVICE, dtype=DTYPE)
 
     # SeedX-DiT

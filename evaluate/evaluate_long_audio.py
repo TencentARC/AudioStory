@@ -28,8 +28,6 @@ import torch
 import torchaudio
 from omegaconf import OmegaConf
 
-# Project imports
-sys.path.append("/group/40034/gloriayxguo/AudioStory_open")
 from src.models.detokenizer.tangoflux_t5_tokens import (  # noqa: E402
     TangoFlux_T5 as TangoFluxDetokenizerT5,
 )
