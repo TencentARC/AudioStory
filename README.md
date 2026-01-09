@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=TencentARC&project=AudioStory&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # AudioStory: Generating Long-Form Narrative Audio with Large Language Models
 
 **[Yuxin Guo<sup>1,2</sup>](https://scholar.google.com/citations?user=x_0spxgAAAAJ&hl=en), 
